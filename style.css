@@ -1,0 +1,140 @@
+ * {  
+  margin: 0;  
+  padding: 0;  
+  box-sizing: border-box;  
+ }  
+body {
+	 background: #252527;
+}
+ .owText {
+	 text-align: center;
+	 vertical-align: text-top;
+	 -webkit-text-stroke: 2px white;
+	 position: relative;
+	 text-transform: uppercase;
+	 color: #252527;
+	 font-size: 14vw;
+	 letter-spacing: 1.2vw;
+	 font-weight: 700;
+	 text-shadow: 0 1px 0 #4a4a4e, -1px -1px 0 #4a4a4e, -1px 0px 0 #343437, -2px 1px 0 #343437, -3px 2px 0 #313134, -4px 3px 0 #2f2f31, -5px 4px 0 #2c2c2f, -6px 5px 0 #2a2a2c, -7px 6px 0 #27272a, -8px 7px 0 #252527, -9px 8px 0 #232324, -10px 9px 0 #202022, -11px 10px 0 #1e1e1f, -12px 11px 0 #1b1b1d, -13px 12px 0 #19191a, -14px 13px 0 #161617, -15px 14px 0 #141415, -16px 15px 0 #111112, 0 -1px 1px white, 0 -2px 0px white, -15px 14px 0px white, -16px 15px 0px white, -17px 16px 0px white, -18px 17px 0px white, -2px -1px 0 white, -3px 0px 0 white, -19px 15px 0 white, -18px 14px 0 white, -17px 13px 0 white, -16px 12px 0 white, -15px 11px 0 white, -14px 10px 0 white, -13px 9px 0 white, -12px 8px 0 white, -11px 7px 0 white, -10px 6px 0 white, -9px 5px 0 white, -8px 4px 0 white, -7px 3px 0 white, -6px 2px 0 white, -5px 1px 0 white, -4px 0px 0 white, 0px 2px 0px white, -1px 3px 0px white, -2px 4px 0px white, -3px 5px 0px white, -4px 6px 0px white, -5px 7px 0px white, -6px 8px 0px white, -7px 9px 0px white, -8px 10px 0px white, -9px 11px 0px white, -10px 12px 0px white, -11px 13px 0px white, -12px 14px 0px white, -13px 15px 0px white, -14px 16px 0px white, -15px 17px 0px white;
+}
+ 
+ body {  
+  font-family: "Poppins", sans-serif;  
+  min-height: 100vh;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  perspective: 1000px;  
+ }  
+ .container {  
+  width: 50%;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  padding-top: 10px;  
+  padding-bottom: 10px;  
+ }  
+ .card {  
+  transform-style: preserve-3d;  
+  height: 40rem;  
+  width: 31rem;  
+  border-radius: 30px;  
+  padding: 0rem 5rem;  
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);  
+ }  
+ .sneaker {  
+  min-height: 35vh;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+ }  
+ .sneaker img {  
+  width: 16rem;  
+  z-index: 2;  
+  transition: all 1s ease-out;  
+ }  
+ .circle {  
+  margin-top: 20px;  
+  width: 14rem;  
+  height: 14rem;  
+  background: linear-gradient(  
+   to right,  
+   rgba(102, 101, 101, 0.75),  
+   rgba(8, 83, 156, 0.75)  
+  );  
+  position: absolute;  
+  border-radius: 50%;  
+  z-index: 1;  
+ }  
+ .info h1 {  
+  font-size: 2.5rem;  
+  padding: 1.5rem 0rem;  
+  transition: all 0.75s ease-out;  
+ }  
+ .info h3 {  
+  font-size: 1rem;  
+  padding-top: 0.5rem;  
+  margin-bottom: 2rem;  
+  color: #585858;  
+  font-weight: lighter;  
+  transition: all 0.75s ease-out;  
+ }  
+ .sizes {  
+  display: flex;  
+  justify-content: space-between;  
+  transition: all 0.75s ease-out;  
+ }  
+ .sizes button {  
+  padding: 0.5rem 2rem;  
+  background: none;  
+  border: none;  
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);  
+  border-radius: 30px;  
+  cursor: pointer;  
+  font-weight: bold;  
+  color: #585858;  
+ }  
+ button.active {  
+  background: #585858;  
+  color: white;  
+ }  
+ .purchase {  
+  margin-top: 3rem;  
+  transition: all 0.75s ease-out;  
+ }  
+ .purchase button {  
+  width: 100%;  
+  padding: 1rem 0rem;  
+  background: #768fff;  
+  border: none;  
+  color: white;  
+  cursor: pointer;  
+  border-radius: 30px;  
+  font-weight: bolder;  
+ }  
+ 
+ /* Container holding the image and the text */
+.rosterpics {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cropped {
+width: 400px; 
+height: 400px; 
+overflow: hidden;
+border: 5px solid black;
+}
+
+.cropped img {
+margin: -10px 0px 0px -180px;
+}
